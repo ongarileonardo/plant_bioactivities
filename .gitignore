@@ -1,0 +1,16 @@
+# all tabular files
+**.csv
+**.tsv
+**.xlsx
+**.xls
+
+# all image files
+**.jpg
+**.jpeg
+**.png
+**.gif
+**.bmp
+**.svg
+**.tiff
+**.webp
+
