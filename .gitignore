@@ -17,3 +17,10 @@
 # virtual environment
 **.venv/
 
+# zip files
+**.zip
+**.tar.gz
+**.tar
+
+# DS_Store files
+**.DS_Store

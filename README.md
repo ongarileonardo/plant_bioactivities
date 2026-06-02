@@ -47,3 +47,12 @@ There are three files, each containing a representation of proteins using embedd
 | `protein_embeddings_UniRep256.csv` | embeddings composed of 3 components of 256 features/columns each (total 768 features) |
 | `protein_embeddings_UniRep1900.csv` | embeddings composed of 3 components of 1900 features/columns each (total 5700 features) |
 
+##
+
+### Spectral Analysis
+
+To retreive spectral data (m/z, intensities) of fragmented molecules, please refer to the databases at the page https://external.gnps2.org/gnpslibrary or the following link https://zenodo.org/records/3979010.
+
+Alternatives:
+1. Cosine similarity (overlaps m/z axe and compare intensities)
+2. spec2vec (learn semantic similarity of the spectra)
