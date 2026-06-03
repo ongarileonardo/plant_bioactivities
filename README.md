@@ -56,3 +56,13 @@ To retreive spectral data (m/z, intensities) of fragmented molecules, please ref
 Alternatives:
 1. Cosine similarity (overlaps m/z axe and compare intensities)
 2. spec2vec (learn semantic similarity of the spectra)
+3. Earth mover distance (compute cost for moving between distributions)
+
+## 4) data
+
+This folder contains tabular files used in spec2vec paper. The data are tandem mass spectroscopy results, with _m/z_ and _intensity_ informations.
+
+
+##
+
+The pipeline is inspired by the Spec2Vec authors Medium articles that can be found at https://blog.esciencecenter.nl/build-your-own-mass-spectrometry-analysis-pipeline-in-python-using-matchms-part-i-d96c718c68ee
