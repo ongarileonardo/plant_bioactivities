@@ -29,3 +29,6 @@
 /src/data/gnps_spectra.pkl
 
 **.model*
+src/data/gnps_positive_ionmode_cleaned_by_matchms.json
+src/data/gnps_positive_ionmode_unique_inchikey_cleaned_by_matchms_and_lookups.json
+src/custom_functions/__pycache__/pubchem_lookup.cpython-312.pyc
