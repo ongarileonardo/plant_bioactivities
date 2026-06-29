@@ -14,7 +14,7 @@ To run the notebooks, you need to install the following libraries:
 - spec2vec (0.5.0)
 - pandas, numpy, pickle, matplotlib, sklearn
 
-## 1) "bioactivities" folder
+## 1) "bioactivities" folder (not tracked)
 
 Contains the list of bioactivities between molecules and protein targets.
 Source: Papyrus (https://pmc.ncbi.nlm.nih.gov/articles/PMC9824924/)
@@ -35,7 +35,7 @@ Source: Papyrus (https://pmc.ncbi.nlm.nih.gov/articles/PMC9824924/)
 > Note: Often `pChembl > 5.5` is considered active and `<= 5.5` inactive; this is heuristic. 
 > It is more accepted to provide false positives that false negatives.
 
-## 2) "mass_spectra_embeddings" folder
+## 2) "mass_spectra_embeddings" folder (not tracked)
 
 Contains molecule embeddings obtained with the **Spec2Vec** Python tool.
 Source: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008724
@@ -46,7 +46,7 @@ Files:
 - `Pairwise_similarity_scores.tsv` — quality metrics for Spec2Vec embeddings using cosine similarity.
 - `spec2vec_vs_baseline.png` — plot of embedding quality metrics for inter- and intra-similarity using cosine similarity.
 
-## 3) "protein_embeddings" folder
+## 3) "protein_embeddings" folder (not tracked)
 
 Contains protein embeddings obtained with **UniRep**.
 Source: Papyrus (https://pmc.ncbi.nlm.nih.gov/articles/PMC9824924/)
@@ -59,10 +59,16 @@ There are three files, each containing a representation of proteins using embedd
 | `protein_embeddings_UniRep256.csv` | embeddings composed of 3 components of 256 features/columns each (total 768 features) |
 | `protein_embeddings_UniRep1900.csv` | embeddings composed of 3 components of 1900 features/columns each (total 5700 features) |
 
-## 4. "doc" folder
-Contains the papers from which the notebooks were inspired.
+## 4. "doc" folder (not tracked)
+Contains the papers from which the notebooks were inspired. Citations can be found in bibliography section and in the notebooks.
+
+## 5) "src" folder
 
 ### Spectral Analysis
+
+This folder contains the notebooks, models and data used in the project.
+
+The "data" sub folder (not tracked) contains tabular files used in spec2vec paper. The data are tandem mass spectroscopy results, with _m/z_ and _intensity_ informations.
 
 To retreive spectral data (m/z, intensities) of fragmented molecules, please refer to the databases at the page https://external.gnps2.org/gnpslibrary or the following link https://zenodo.org/records/3979010.
 
@@ -72,16 +78,13 @@ Alternatives:
 3. Earth mover distance (compute cost for moving between distributions)
 4. Gaussian kernel (compute cost for moving between distributions)
 
-## 5) "src" folder
-
-This folder contains the notebooks, models and data used in the project.
-
-The "data" sub folder contains tabular files used in spec2vec paper. The data are tandem mass spectroscopy results, with _m/z_ and _intensity_ informations.
-
-
 ##
 
 The pipelines are inspired by the Spec2Vec authors Medium articles that can be found at https://blog.esciencecenter.nl/build-your-own-mass-spectrometry-analysis-pipeline-in-python-using-matchms-part-i-d96c718c68ee and by the github repository https://github.com/iomega/spec2vec_gnps_data_analysis/
+
+##
+
+### Bibliography
 
 [1] WANG, Mingxun, et al. Sharing and community curation of mass spectrometry data with Global Natural Products Social Molecular Networking. Nature biotechnology, 2016, 34.8: 828-837.
 
