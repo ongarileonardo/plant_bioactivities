@@ -82,3 +82,13 @@ The "data" sub folder contains tabular files used in spec2vec paper. The data ar
 ##
 
 The pipelines are inspired by the Spec2Vec authors Medium articles that can be found at https://blog.esciencecenter.nl/build-your-own-mass-spectrometry-analysis-pipeline-in-python-using-matchms-part-i-d96c718c68ee and by the github repository https://github.com/iomega/spec2vec_gnps_data_analysis/
+
+[1] WANG, Mingxun, et al. Sharing and community curation of mass spectrometry data with Global Natural Products Social Molecular Networking. Nature biotechnology, 2016, 34.8: 828-837.
+
+[2] CIACH, Michał Aleksander, et al. Masserstein: Linear regression of mass spectra by optimal transport. Rapid Communications in Mass Spectrometry, 2025, 39: e8956.
+
+[3] BEQUIGNON, Olivier JM, et al. Papyrus: a large-scale curated dataset aimed at bioactivity predictions. Journal of cheminformatics, 2023, 15.1: 3.
+
+[4] HUBER, Florian, et al. Spec2Vec: Improved mass spectral similarity scoring through learning of structural relationships. PLoS computational biology, 2021, 17.2: e1008724.
+
+[5] MAJEWSKI, Szymon, et al. The Wasserstein distance as a dissimilarity measure for mass spectra with application to spectral deconvolution. In: 18th International Workshop on Algorithms in Bioinformatics (WABI 2018). Schloss Dagstuhl–Leibniz-Zentrum für Informatik, 2018. p. 25: 1-25: 21.
